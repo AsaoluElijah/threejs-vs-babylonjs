@@ -1,0 +1,19 @@
+{
+  "name": "threejs-vs-babylon",
+  "version": "1.0.0",
+  "description": "Performance comparison between Three.js and Babylon.js",
+  "scripts": {
+    "start:three": "vite threejs/",
+    "start:babylon": "vite babylonjs/",
+    "build:three": "vite build threejs/",
+    "build:babylon": "vite build babylonjs/"
+  },
+  "dependencies": {
+    "three": "^0.161.0",
+    "@babylonjs/core": "^6.35.0",
+    "@babylonjs/loaders": "^6.35.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.0"
+  }
+}
